@@ -5,6 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Joel</title>
+    <style>
+        .site-nav{display:flex;align-items:center;gap:14px;flex-wrap:wrap;padding:10px 16px;background:#ffffffcc;border-radius:14px;margin:0 0 18px 0;box-shadow:0 2px 10px rgba(0,0,0,.08);font-family:"Poppins",sans-serif;}
+        .site-nav a{display:flex;align-items:center;gap:6px;text-decoration:none;color:#3b4a57;font-size:13px;}
+        .site-nav img{width:26px;height:26px;border-radius:50%;object-fit:cover;}
+        .site-nav .home-link{font-weight:600;border-right:1px solid #ccc;padding-right:14px;margin-right:2px;}
+        .site-nav a.current{font-weight:700;text-decoration:underline;}
+    </style>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
@@ -15,47 +23,17 @@
 
         <h1>Meus lugares<br>preferidos!</h1>
 
-       <div class="pessoas">
-
-    <div class="pessoa">
-        <a href="Lugares.html">
-            <img src="icons/pessoa.png" alt="Pessoa">
-            <span>Bruno Luz</span>
-        </a>
-    </div>
-
-    <div class="pessoa">
-        <a href="index2.html">
-            <img src="icons/pessoa.png" alt="Pessoa">
-            <span>Daniel Pavesi</span>
-        </a>
-    </div>
-
-    <div class="pessoa">
-        <a href="index3.html">
-            <img src="icons/pessoa.png" alt="Pessoa">
-            <span>Joel Gracek</span>
-        </a>
-    </div>
-
-    <div class="pessoa">
-        <a href="index4.html">
-            <img src="icons/pessoa.png" alt="Pessoa">
-            <span>Luiza Caravaggio</span>
-        </a>
-    </div>
-
-    <div class="pessoa">
-        <a href="index5.html">
-            <img src="icons/pessoa.png" alt="Pessoa">
-            <span>Sarah Delatorre</span>
-        </a>
-    </div>
-    </div>
-
+           <nav class="site-nav">
+        <a class="home-link" href="../index.html">🏠 Início</a>
+        <a href="../pagina-bruno/index.html"><img src="../assets/avatars/Bruno.png" alt="Bruno"><span>Bruno</span></a>
+        <a href="../DanielPagina/index.html"><img src="../assets/avatars/Daniel.png" alt="Daniel"><span>Daniel</span></a>
+        <a href="../pagina-joel/index.html" class="current"><img src="../assets/avatars/Joel.jpeg" alt="Joel"><span>Joel</span></a>
+        <a href="../LuizaPagina/index.html"><img src="../assets/avatars/Luiza.png" alt="Luiza"><span>Luiza</span></a>
+        <a href="../PaginaSarah/pagina.html"><img src="../assets/avatars/Sarah.png" alt="Sarah"><span>Sarah</span></a>
+    </nav>
     <div class="icones">
-    <img src="lupa.png" alt="Lupa">
-    <img src="mais.png" alt="Adicionar">
+    <img src="../assets/avatars/lupa.png" alt="Lupa">
+    <img src="../assets/avatars/mais.png" alt="Adicionar">
     </div>
         
     </header>
