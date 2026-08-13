@@ -1,58 +1,97 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meus lugares preferidos</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <title>Daniel</title>
+    <style>
+        .site-nav{display:flex;align-items:center;gap:14px;flex-wrap:wrap;padding:10px 16px;background:#ffffffcc;border-radius:14px;margin:0 0 18px 0;box-shadow:0 2px 10px rgba(0,0,0,.08);font-family:"Poppins",sans-serif;}
+        .site-nav a{display:flex;align-items:center;gap:6px;text-decoration:none;color:#3b4a57;font-size:13px;}
+        .site-nav img{width:26px;height:26px;border-radius:50%;object-fit:cover;}
+        .site-nav .home-link{font-weight:600;border-right:1px solid #ccc;padding-right:14px;margin-right:2px;}
+        .site-nav a.current{font-weight:700;text-decoration:underline;}
+    </style>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="home.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
 <body>
+    <header>
 
-    <header class="hero">
-        <h1>Meus lugares preferidos!</h1>
-        <p>Um projeto em grupo: cada um mostra os lugares que mais gosta. Clique em uma pessoa para conhecer a página dela.</p>
+        <h1>Meus lugares<br>preferidos!</h1>
+
+           <nav class="site-nav">
+        <a class="home-link" href="../index.html">🏠 Início</a>
+        <a href="../pagina-bruno/index.html"><img src="../assets/avatars/Bruno.png" alt="Bruno"><span>Bruno</span></a>
+        <a href="../DanielPagina/index.html" class="current"><img src="../assets/avatars/Daniel.png" alt="Daniel"><span>Daniel</span></a>
+        <a href="../pagina-joel/index.html"><img src="../assets/avatars/Joel.jpeg" alt="Joel"><span>Joel</span></a>
+        <a href="../LuizaPagina/index.html"><img src="../assets/avatars/Luiza.png" alt="Luiza"><span>Luiza</span></a>
+        <a href="../PaginaSarah/pagina.html"><img src="../assets/avatars/Sarah.png" alt="Sarah"><span>Sarah</span></a>
+    </nav>
+    <div class="icones">
+    <img src="../assets/avatars/lupa.png" alt="Lupa">
+    <img src="../assets/avatars/mais.png" alt="Adicionar">
+    </div>
+        
     </header>
 
-    <main class="cards">
+    <main>
 
-        <a class="card" href="pagina-bruno/index.html">
-            <img src="assets/avatars/Bruno.png" alt="Bruno">
-            <h2>Bruno</h2>
-            <span>Maragogi, Aparecida, Picos</span>
-        </a>
+    <section class="bloco azul">
 
-        <a class="card" href="DanielPagina/index.html">
-            <img src="assets/avatars/Daniel.png" alt="Daniel">
-            <h2>Daniel</h2>
-            <span>Igreja, casa, praia, shopping</span>
-        </a>
+        <div class="imagem">
+            <img src="imagens/Paróquia_Nossa_Senhora_dos_Remédios_03.jpg" alt="Lugar 1">
+        </div>
 
-        <a class="card" href="pagina-joel/index.html">
-            <img src="assets/avatars/Joel.jpeg" alt="Joel">
-            <h2>Joel</h2>
-            <span>Balneário Camboriú, Guararema, Ibirapuera</span>
-        </a>
+        <div class="texto">
+            <h2>Igreja</h2>
 
-        <a class="card" href="LuizaPagina/index.html">
-            <img src="assets/avatars/Luiza.png" alt="Luiza">
-            <h2>Luiza</h2>
-            <span>Ubatuba, Votuporanga, Olímpia</span>
-        </a>
+            <p>
+                Gosto da igreja porque é o lugar onde mais me conecto com Deus, e por isso gosto muito dela.
+            </p>
+        </div>
 
-        <a class="card" href="PaginaSarah/pagina.html">
-            <img src="assets/avatars/Sarah.png" alt="Sarah">
-            <h2>Sarah</h2>
-            <span>Águas de Santa Bárbara, Ibirapuera, viagens</span>
-        </a>
+    </section>
 
-    </main>
+    <section class="bloco branco">
 
-    <footer>
-        <p>Página inicial &middot; navegue por qualquer página e use o botão "Início" para voltar aqui.</p>
-    </footer>
+        <div class="texto">
+            <h2>Minha casa e praia</h2>
+
+            <p>
+                Gosto da minha casa porque passo grande parte do meu tempo nela. Além disso, muitos dos meus amigos vêm à minha casa com frequência. Também gosto muito da praia, porque é um lugar mais descontraído.
+            </p>
+        </div>
+
+        <div class="imagens-duplas">
+
+    <img src="imagens/WhatsApp Image 2026-08-02 at 19.57.00.jpeg" class="foto1" alt="Lugar 2">
+
+    <img src="imagens/paia-de-pernambuco.jpg" class="foto2" alt="Lugar 3">
+
+</div>
+
+    </section>
+
+    <section class="bloco azul">
+
+        <div class="texto">
+            <h2>Shopping</h2>
+
+            <p>
+                Gosto do shopping porque vou com bastante frequência, muitas vezes na companhia dos meus amigos.
+            </p>
+        </div>
+
+        <div class="imagem">
+            <img src="imagens/FACHADA NOITE.png" alt="Lugar 3">
+        </div>
+
+    </section>
+
+</main>
 
 </body>
 </html>
