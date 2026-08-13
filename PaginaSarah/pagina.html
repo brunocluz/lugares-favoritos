@@ -3,13 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sarah</title>
     <link rel="stylesheet" href="estilo/style.css">
-
+    <style>
+        .site-nav{position:fixed;top:0;left:0;right:0;z-index:999;display:flex;align-items:center;gap:14px;flex-wrap:wrap;padding:10px 16px;background:#ffffffe6;font-family:Arial, Helvetica, sans-serif;box-shadow:0 2px 10px rgba(0,0,0,.15);}
+        .site-nav a{display:flex;align-items:center;gap:6px;text-decoration:none;color:#3b4a57;font-size:13px;}
+        .site-nav img{width:26px;height:26px;border-radius:50%;object-fit:cover;}
+        .site-nav .home-link{font-weight:700;border-right:1px solid #ccc;padding-right:14px;margin-right:2px;}
+        .site-nav a.current{font-weight:700;text-decoration:underline;}
+        body{padding-top:52px;}
+    </style>
 
 </head>
 
 <body>
+    <nav class="site-nav">
+        <a class="home-link" href="../index.html">🏠 Início</a>
+        <a href="../pagina-bruno/index.html"><img src="../assets/avatars/Bruno.png" alt="Bruno"><span>Bruno</span></a>
+        <a href="../DanielPagina/index.html"><img src="../assets/avatars/Daniel.png" alt="Daniel"><span>Daniel</span></a>
+        <a href="../pagina-joel/index.html"><img src="../assets/avatars/Joel.jpeg" alt="Joel"><span>Joel</span></a>
+        <a href="../LuizaPagina/index.html"><img src="../assets/avatars/Luiza.png" alt="Luiza"><span>Luiza</span></a>
+        <a href="../PaginaSarah/pagina.html" class="current"><img src="../assets/avatars/Sarah.png" alt="Sarah"><span>Sarah</span></a>
+    </nav>
     <h1>Site de Tecnologia </h1>
         
     <h1>Site de Tecnologia</h1>
